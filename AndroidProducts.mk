@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2020 The dotOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_odessa.mk
+    $(LOCAL_DIR)/dot_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_odessa-eng \
-    lineage_odessa-user \
-    lineage_odessa-userdebug
+    dot_odessa-eng \
+    dot_odessa-user \
+    dot_odessa-userdebug
