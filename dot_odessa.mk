@@ -23,6 +23,9 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common dotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_odessa
