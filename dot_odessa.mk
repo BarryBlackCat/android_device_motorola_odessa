@@ -41,9 +41,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build info
-BUILD_FINGERPRINT := "motorola/odessa_retail/odessa:10/QPAS30.19-Q3-32-50-5/5fc71:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=odessa_retail \
-    PRIVATE_BUILD_DESC="odessa_retail-user 10 QPAS30.19-Q3-32-50-5 5fc71 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.211001.001 7641976 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
