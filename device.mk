@@ -79,12 +79,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal
 
-# Shims
-PRODUCT_PACKAGES += \
-    libmemset_shim \
-    libcomparetf2 \
-    libdemangle
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
