@@ -29,6 +29,7 @@ $(call inherit-product, vendor/motorola/odessa/odessa-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-pixel
 
 PRODUCT_PACKAGES += \
 	NoCutoutOverlay \
