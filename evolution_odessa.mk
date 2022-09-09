@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-# Inherit some common FluidOS stuff.
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+# Inherit some common Evolution-X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 ifeq ($(WITH_GAPPS),true)
 TARGET_INCLUDE_GAPPS := true
@@ -32,7 +32,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 endif
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fluid_odessa
+PRODUCT_NAME := evolution_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
