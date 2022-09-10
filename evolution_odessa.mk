@@ -24,13 +24,6 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-ifeq ($(WITH_GAPPS),true)
-TARGET_INCLUDE_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_GAPPS := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-endif
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_odessa
 PRODUCT_DEVICE := odessa
@@ -46,9 +39,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Build info
-BUILD_FINGERPRINT := "motorola/odessa_retail/odessa:11/RPAS31.Q2-59-17-3/0a646:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=odessa_retail \
-    PRIVATE_BUILD_DESC="odessa_retail-user 11 RPAS31.Q2-59-17-3 0a646 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
