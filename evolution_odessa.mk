@@ -23,6 +23,7 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_odessa
