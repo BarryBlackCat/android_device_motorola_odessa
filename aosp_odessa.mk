@@ -24,8 +24,8 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_USES_AOSP_RECOVERY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_odessa
