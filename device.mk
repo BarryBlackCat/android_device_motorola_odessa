@@ -31,6 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-pixel
 
 PRODUCT_PACKAGES += \
+    CarrierConfig \
     FrameworksResOdessa \
     SettingsResOdessa \
     SystemUIResOdessa \
