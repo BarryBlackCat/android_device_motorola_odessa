@@ -24,6 +24,7 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
